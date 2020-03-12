@@ -1,0 +1,2 @@
+# JsonDataSortInKotlin
+JSONデータを読み込んでソートして返します
