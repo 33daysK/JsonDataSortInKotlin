@@ -1,12 +1,15 @@
 package jsv
-/* 数値の入力を受け付ける関数です。
- * ユーザからの入力を受け付ける際はNull許容型変数になってしまうため、
- * Nullチェックを施した上で非Null型の変数へと整形しています。
- *
- */
 
 import kotlin.system.exitProcess
-
+/**  
+ *  UserInputクラスです。
+ *  
+ *  @auther:33daysK
+ *  @version バージョン1.0 2020/03/18
+ *  数値の入力を受け付ける関数です。
+ *  ユーザからの入力を受け付ける際はNull許容型変数になってしまうため、
+ *  Nullチェックを施した上で非Null型の変数へと整形しています。
+ */
 fun input_number(sort : Int): Int{
 	// readLineでユーザからの入力を受け付けています。
 	// 戻り値はString?なのでNullチェックをしてからでないとInt型には直せません。
