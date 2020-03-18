@@ -11,7 +11,6 @@ import org.json.JSONArray
  *  ファイルに書き込みをしています
  *  .use関数がJavaで言うtry-with-resorceの役割を果たしてくれているため自動的にcloseされます。
  */
- */
 fun jsonFileWrite(fileName: String, sortedList: List<Student>){
 	// 書式を整えて画面に出力する関数
 	printScreen(sortedList)
